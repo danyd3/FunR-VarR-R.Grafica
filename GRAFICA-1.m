@@ -1,17 +1,17 @@
 %Octave Script
 %Title              :Funcion real de variable real
-%Descrption         :Graficaci髇 de una funci髇 real de variable real #2
-%Author             :Daniel Alberto De Jes鷖 (danyd3)
+%Descrption         :Graficaci贸n de una funci贸n real de variable real #2
+%Author             :Daniel Alberto De Jes煤s (danyd3)
 %Date               :202123231
 %Version            :1
 %Usage              :octave> /path/GRAFICA1
-%Notes              :Requiere aplicaci髇 octave junto a linea de comandos.
+%Notes              :Requiere aplicaci贸n octave junto a linea de comandos.
 
 clear
-% Dominio de la funci髇
-x=-0:0.1:50
-% Regla de correspondecia (funci髇)
+% Dominio de la funci贸n
+x=-0:10:50
+% Regla de correspondecia (funci贸n)
 %1+?x-4
 fx=(1)+((x-4).^(1/2))
-% Plotear funci髇
+% Plotear funci贸n
 plot(x, fx);
